@@ -1,4 +1,3 @@
-# === Multi-Pass Fuzzy/NLP Reconciliation Matcher ===
 import pandas as pd
 import openpyxl
 import numpy as np
@@ -30,16 +29,14 @@ def clean_text(text):
 
     if found:
         return " ".join(found)
-
-    '''text = re.sub(r"purchase terminal \d+", "", str(text).lower())
-    text = re.sub(r"seq #\s*\d+", "", text)
-    text = re.sub(r"[^a-zA-Z\s]", "", text)
     doc = nlp(text)
     tokens = [token.lemma_ for token in doc if not token.is_stop and not token.is_punct]
-    return " ".join(tokens)'''
+    return " ".join(tokens)
+
+    
 
 def process_row(row):
-    parts = [str(row[col]) for col in ["Date", "Transaction Type", "Check", "Description"] if pd.notnull(row[col])]
+    parts = [str(row[col]) for col in ["Date", "Transaction Type", "Check_Ref", "Description", "Source", "ID"] if pd.notnull(row[col])]
     return clean_text(" ".join(parts))
 
 def get_vector(text):
@@ -52,7 +49,9 @@ def compute_score(gl_row, bank_row, alpha=0.5):
     text_score = fuzz.token_sort_ratio(gl_row['clean'], bank_row['clean']) / 100
     vector_score = cosine_similarity([gl_row['vector']], [bank_row['vector']])[0][0]
     amount_score = 1 if abs(gl_row['Amount'] - bank_row['Amount']) < 0.01 else 0
-    return alpha * text_score + (1 - alpha) * vector_score + 0.3 * amount_score
+    date_diff = abs((pd.to_datetime(gl_row['Date']) - pd.to_datetime(bank_row['Date'])).days)
+    date_bonus = 0.1 if date_diff <= 1 else 0
+    return alpha * text_score + (1 - alpha) * vector_score + 0.3 * amount_score + date_bonus
 
 # === Pass 1: Exact Match ===
 def match_pass_1(gl_df, bank_df):
@@ -91,8 +90,8 @@ def match_pass_2(gl_df, bank_df, used_gl, used_bank, threshold=0.85):
 
 # === Setup ===
 def setup_data(gl_data, bank_data):
-    gl_df = pd.DataFrame(gl_data, columns=["Date", "Transaction Type", "Check", "Description", "Amount"])
-    bank_df = pd.DataFrame(bank_data, columns=["Date", "Transaction Type", "Check", "Description", "Amount"])
+    gl_df = pd.DataFrame(gl_data, columns=["Date", "Transaction Type", "Check_Ref", "Description", "Amount", "Source", "ID"])
+    bank_df = pd.DataFrame(bank_data, columns=["Date", "Transaction Type", "Check_Ref", "Description", "Amount", "Source", "ID"])
     gl_df['clean'] = gl_df.apply(process_row, axis=1)
     bank_df['clean'] = bank_df.apply(process_row, axis=1)
     gl_df['vector'] = gl_df['clean'].apply(get_vector)
@@ -115,16 +114,27 @@ def run_all_passes(gl_df, bank_df):
     print("\n❌ UNMATCHED GL TRANSACTIONS:")
     for _, row in unmatched_gl.iterrows():
         print(row[['Date', 'Description', 'Amount']].to_dict())
+        #Top 3 Suggestions
+        print("  Top Match Suggestions:")
+        candidates = []
+        for j, bank_row in unmatched_bank.iterrows():
+            score = compute_score(row, bank_row)
+            candidates.append((score, j))
+        top = sorted(candidates, reverse=True)[:3]
+        for score, j in top:
+            print(f"    → BANK: {bank_df.at[j, 'Description']} | Date: {bank_df.at[j, 'Date']} | Amount: {bank_df.at[j, 'Amount']} | Score: {score:.2f}")
 
     print("\n❌ UNMATCHED BANK TRANSACTIONS:")
     for _, row in unmatched_bank.iterrows():
         print(row[['Date', 'Description', 'Amount']].to_dict())
 
 # === Example Input ===
-#gl_data = pd.read_excel("/Users/user/Desktop/school/scope/onetoonedata.xlsx", sheet_name="Sheet3")
-gl_data = pd.read_excel("/Users/user/Desktop/school/scope/complexity.xlsx", sheet_name="GL")
-#bank_data = pd.read_excel("/Users/user/Desktop/school/scope/onetoonedata.xlsx", sheet_name="Sheet2")
-bank_data = pd.read_excel("/Users/user/Desktop/school/scope/complexity.xlsx", sheet_name="Bank")
+#gl_data = pd.read_csv("/Users/user/Desktop/school/scope/Cleaned_GL.csv")
+#bank_data = pd.read_csv("/Users/user/Desktop/school/scope/Cleaned_Bank.csv")
+gl_data = pd.read_excel("/Users/user/Desktop/school/scope/onetoonedata.xlsx", sheet_name="Sheet3")
+#gl_data = pd.read_excel("/Users/user/Desktop/school/scope/complexity.xlsx", sheet_name="GL")
+bank_data = pd.read_excel("/Users/user/Desktop/school/scope/onetoonedata.xlsx", sheet_name="Sheet2")
+#bank_data = pd.read_excel("/Users/user/Desktop/school/scope/complexity.xlsx", sheet_name="Bank")
 
 # === Run ===
 gl_df, bank_df = setup_data(gl_data, bank_data)
