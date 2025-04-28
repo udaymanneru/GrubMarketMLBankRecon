@@ -194,7 +194,7 @@ def annotate(gl_df, bank_df, matches, unmatched_gl, unmatched_bank, threshold=0.
 
 
 # === Full Run ===
-def run_reconciliation(gl_file, bank_file, output_file="annotated_output.xlsx"):
+def run_reconciliation(gl_file, bank_file, output_file="data/annotated_output.xlsx"):
     gl_ext = os.path.splitext(gl_file)[1].lower()
     bank_ext = os.path.splitext(bank_file)[1].lower()
 
@@ -299,10 +299,10 @@ def run_reconciliation(gl_file, bank_file, output_file="annotated_output.xlsx"):
                                       errors='ignore')
 
     # Save separately
-    failed_gl.to_csv("failed_gl.csv", index=False)
-    failed_bank.to_csv("failed_bank.csv", index=False)
+    failed_gl.to_csv("data/failed_gl.csv", index=False)
+    failed_bank.to_csv("data/failed_bank.csv", index=False)
 
     print("\n✅ Saved 'failed_gl.csv' and 'failed_bank.csv' with next action hints.")
 
 # Example Usage:
-run_reconciliation("Cleaned_GL (1).csv", "Cleaned_Bank (1).csv")
+run_reconciliation("data/Cleaned_GL (1).csv", "data/Cleaned_Bank (1).csv")
