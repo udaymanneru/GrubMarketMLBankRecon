@@ -157,9 +157,11 @@ def annotate(gl_df, bank_df, matches, unmatched_gl, unmatched_bank, threshold=0.
     bank_df["Match Explanation"] = ""
     bank_df["Match ID"] = ""
 
+    # === Matched entries
     for i, j, score, components in matches:
         gl_id = gl_df.at[i, "ID"] if gl_has_id else i
         bank_id = bank_df.at[j, "ID"] if bank_has_id else j
+        source = gl_df.at[i, "Source"] if "Source" in gl_df.columns else "GL"
 
         explanation = generate_explanation(score, components, threshold)
 
@@ -167,8 +169,9 @@ def annotate(gl_df, bank_df, matches, unmatched_gl, unmatched_bank, threshold=0.
         gl_df.at[i, "Match ID"] = f"Matched to Bank ID={bank_id}"
 
         bank_df.at[j, "Match Explanation"] = explanation
-        bank_df.at[j, "Match ID"] = f"Matched to GL ID={gl_id}"
+        bank_df.at[j, "Match ID"] = f"Matched to {source}-ID={gl_id}"
 
+    # === Unmatched GL entries with suggestions
     for i, gl_row in unmatched_gl.iterrows():
         candidates = []
         best_score = -1
@@ -183,10 +186,14 @@ def annotate(gl_df, bank_df, matches, unmatched_gl, unmatched_bank, threshold=0.
                 best_components = (amount_s, ref_s, date_s, desc_s)
 
         top3 = sorted(candidates, reverse=True)[:3]
+        source = gl_df.at[i, "Source"] if "Source" in gl_df.columns else "GL"
 
         issue_explanation = generate_explanation(best_score, best_components, threshold)
         match_id_info = " | ".join(
-            [f"Suggestion {idx}: Bank ID={bid} (Score={s:.2f})" for idx, (s, bid) in enumerate(top3, 1)]
+            [
+                f"Suggestion {idx}: Bank ID={bid} (Score={s:.2f}), Matched from {source}"
+                for idx, (s, bid) in enumerate(top3, 1)
+            ]
         )
 
         gl_df.at[i, "Match Explanation"] = issue_explanation
@@ -195,11 +202,13 @@ def annotate(gl_df, bank_df, matches, unmatched_gl, unmatched_bank, threshold=0.
 
 # === Full Run ===
 def run_reconciliation(gl_file, bank_file, output_file="data/annotated_output.xlsx"):
+    os.makedirs("data", exist_ok=True)  # ensure output directory exists
+
     gl_ext = os.path.splitext(gl_file)[1].lower()
     bank_ext = os.path.splitext(bank_file)[1].lower()
 
     if gl_ext == ".csv":
-        gl_df = pd.read_csv(gl_file)
+        gl_df = pd.read_csv(gl_file).rename(columns={"Memo/Description": "Description", "Ref #": "Check_Ref"})
     elif gl_ext in [".xls", ".xlsx"]:
         gl_df = pd.read_excel(gl_file)
     else:
@@ -213,14 +222,14 @@ def run_reconciliation(gl_file, bank_file, output_file="data/annotated_output.xl
         raise ValueError(f"Unsupported Bank file format: {bank_ext}")
 
     matches, unmatched_gl, unmatched_bank = match_transactions(gl_df, bank_df)
-
     annotate(gl_df, bank_df, matches, unmatched_gl, unmatched_bank)
 
     print("\n✅ CONFIRMED MATCHES (score ≥ 0.75):")
     for i, j, score, components in matches:
         desc_gl = gl_df.at[i, 'Description'] if pd.notna(gl_df.at[i, 'Description']) else '[NO DESCRIPTION]'
         desc_bank = bank_df.at[j, 'Description'] if pd.notna(bank_df.at[j, 'Description']) else '[NO DESCRIPTION]'
-        print(f"GL: {desc_gl:<60} ↔ BANK: {desc_bank:<60} | Score: {score:.4f}")
+        source = gl_df.at[i, "Source"] if "Source" in gl_df.columns else "GL"
+        print(f"{source}: {desc_gl:<60} ↔ BANK: {desc_bank:<60} | Score: {score:.4f}")
 
     print("\n❌ UNMATCHED GL TRANSACTIONS:")
     for i, gl_row in unmatched_gl.iterrows():
@@ -233,7 +242,8 @@ def run_reconciliation(gl_file, bank_file, output_file="data/annotated_output.xl
         top = sorted(candidates, reverse=True)[:3]
         for score, j in top:
             print(
-                f"    → BANK: {bank_df.at[j, 'Description']} | Date: {bank_df.at[j, 'Date']} | Amount: {bank_df.at[j, 'Amount']} | Score: {score:.4f}")
+                f"    → BANK: {bank_df.at[j, 'Description']} | Date: {bank_df.at[j, 'Date']} | Amount: {bank_df.at[j, 'Amount']} | Score: {score:.4f}"
+            )
 
     print("\n❌ UNMATCHED BANK TRANSACTIONS:")
     for _, row in unmatched_bank.iterrows():
@@ -260,49 +270,39 @@ def run_reconciliation(gl_file, bank_file, output_file="data/annotated_output.xl
             _, amount_s, ref_s, date_s, desc_s = best
 
             if amount_s == 1.0 and date_s == 1.0:
-                # Amount/date match → isolate which lowered the score
                 problems = []
-
                 if ref_s < 0.85 and (ref_s <= desc_s):
                     problems.append("Focus on Ref (fuzzy)")
                 if desc_s < 0.85 and (desc_s < ref_s):
                     problems.append("Focus on Desc (NLP)")
-
                 if ref_s < 0.85 and desc_s < 0.85 and abs(ref_s - desc_s) <= 0.05:
-                    # If both are similarly bad (difference ≤ 5%), recommend both
                     problems = ["Focus on Ref (fuzzy)", "Focus on Desc (NLP)"]
-
-                if problems:
-                    action = "Amount/date match. " + " and ".join(problems) + "."
-                else:
-                    action = "Amount/date match but unclear issue. Manual review needed."
+                action = (
+                    "Amount/date match. " + " and ".join(problems) + "."
+                    if problems
+                    else "Amount/date match but unclear issue. Manual review needed."
+                )
             else:
-                # Amount/date mismatch → still recommend focusing on both if needed
                 problems = []
-
                 if ref_s < 0.85:
                     problems.append("Focus on Ref (fuzzy)")
                 if desc_s < 0.85:
                     problems.append("Focus on Desc (NLP)")
-
-                if problems:
-                    action = "Amount/date mismatch. " + " and ".join(problems) + "."
-                else:
-                    action = "Amount/date mismatch. Manual review needed."
+                action = (
+                    "Amount/date mismatch. " + " and ".join(problems) + "."
+                    if problems
+                    else "Amount/date mismatch. Manual review needed."
+                )
 
         failed_gl.at[idx, "Next Action"] = action
 
-    # Drop extra columns
-    failed_gl = failed_gl.drop(columns=[col for col in ['clean', 'vector'] if col in failed_gl.columns],
-                               errors='ignore')
-    failed_bank = unmatched_bank.drop(columns=[col for col in ['clean', 'vector'] if col in unmatched_bank.columns],
-                                      errors='ignore')
+    failed_gl = failed_gl.drop(columns=[col for col in ['clean', 'vector'] if col in failed_gl.columns], errors='ignore')
+    failed_bank = unmatched_bank.drop(columns=[col for col in ['clean', 'vector'] if col in unmatched_bank.columns], errors='ignore')
 
-    # Save separately
     failed_gl.to_csv("data/failed_gl.csv", index=False)
     failed_bank.to_csv("data/failed_bank.csv", index=False)
 
     print("\n✅ Saved 'failed_gl.csv' and 'failed_bank.csv' with next action hints.")
 
 # Example Usage:
-run_reconciliation("data/Cleaned_GL (1).csv", "data/Cleaned_Bank (1).csv")
+run_reconciliation("data/cleaned_combined_records.csv", "data/Cleaned_Bank (1).csv")

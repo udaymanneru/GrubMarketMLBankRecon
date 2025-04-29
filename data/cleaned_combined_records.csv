@@ -1,0 +1,424 @@
+Date,Transaction Type,Ref #,Name,Memo/Description,Amount,Source
+2022-08-01,bank charge/income,22486,,east west bank checking 2092`22486_x0003_fed p/r tax,-690.51,GL
+2022-08-01,bank charge/income,22487,,east west bank checking 2092`22487_x0003_fed p/r tax,-4519.16,GL
+2022-08-01,bank charge/income,22488,,east west bank checking 2092`22488_x0003_state p/r tax,-41.32,GL
+2022-08-01,bank charge/income,22489,,east west bank checking 2092`22489_x0003_state p/r tax,-166.9,GL
+2022-08-01,bank charge/income,22490,,east west bank checking 2092`22490_x0003_state p/r tax,-769.72,GL
+2022-08-01,bank charge/income,22491,,east west bank checking 2092`22491_x0003_state p/r tax,-495.73,GL
+2022-08-01,bank charge/income,22492,,east west bank checking 2092`22492_x0003_state p/r tax,-40.16,GL
+2022-08-01,cash receipt entry,22496,,east west bank checking 2092`22496_x0003_deposit 8/1/22,8279.61,GL
+2022-08-01,cash receipt entry,22496,,east west bank checking 2092`22496_x0003_deposit 8/1/22,6901.56,GL
+2022-08-01,cash receipt entry,22496,,east west bank checking 2092`22496_x0003_deposit 8/1/22,1129.31,GL
+2022-08-01,cash receipt entry,22496,,east west bank checking 2092`22496_x0003_deposit 8/1/22,5511.0,GL
+2022-08-01,cash receipt entry,22496,,east west bank checking 2092`22496_x0003_deposit 8/1/22,1193.0,GL
+2022-08-01,cash receipt entry,22496,,east west bank checking 2092`22496_x0003_deposit 8/1/22,2826.72,GL
+2022-08-01,cash receipt entry,22496,,east west bank checking 2092`22496_x0003_deposit 8/1/22,1898.16,GL
+2022-08-01,cash receipt entry,22496,,east west bank checking 2092`22496_x0003_deposit 8/1/22,3646.28,GL
+2022-08-01,cash receipt entry,22496,,east west bank checking 2092`22496_x0003_deposit 8/1/22,3629.6,GL
+2022-08-01,cash receipt entry,22496,,east west bank checking 2092`22496_x0003_deposit 8/1/22,3629.6,GL
+2022-08-01,cash receipt entry,22496,,east west bank checking 2092`22496_x0003_deposit 8/1/22,3635.16,GL
+2022-08-01,cash receipt entry,22496,,east west bank checking 2092`22496_x0003_deposit 8/1/22,3629.6,GL
+2022-08-01,cash receipt entry,22496,,east west bank checking 2092`22496_x0003_deposit 8/1/22,16353.34,GL
+2022-08-01,cash receipt entry,22496,,east west bank checking 2092`22496_x0003_deposit 8/1/22,1587.86,GL
+2022-08-01,cash receipt entry,22496,,east west bank checking 2092`22496_x0003_deposit 8/1/22,3640.72,GL
+2022-08-03,ap payments,2208035,,"americold logistics, llc`2208035_x0003_($10,585.59 usd), aug 03, 2022",-10585.59,GL
+2022-08-03,ap payments,15948,,"first national bank of omaha #6414`15948_x0003_($417.51 usd), aug 03, 2022",-417.51,GL
+2022-08-03,ap payments,15949,,"first national bank of omaha #6522`15949_x0003_($49.53 usd), aug 03, 2022",-49.53,GL
+2022-08-03,ap payments,15950,,"national freight, inc.`15950_x0003_($800.00 usd), aug 03, 2022",-800.0,GL
+2022-08-03,ap payments,15951,,"western pest services`15951_x0003_($191.92 usd), aug 03, 2022",-191.92,GL
+2022-08-04,cash receipt entry,22541,,east west bank checking 2092`22541_x0003_internal xfer,1358.0,GL
+2022-08-04,cash receipt entry,22541,,east west bank checking 2092`22541_x0003_internal xfer,740.52,GL
+2022-08-04,cash receipt entry,22541,,east west bank checking 2092`22541_x0003_internal xfer,12138.0,GL
+2022-08-04,cash receipt entry,22541,,east west bank checking 2092`22541_x0003_internal xfer,1357.5,GL
+2022-08-04,cash receipt entry,22541,,east west bank checking 2092`22541_x0003_internal xfer,2508.8,GL
+2022-08-04,cash receipt entry,22541,,east west bank checking 2092`22541_x0003_internal xfer,426.4,GL
+2022-08-04,cash receipt entry,22541,,east west bank checking 2092`22541_x0003_internal xfer,1656.0,GL
+2022-08-04,cash receipt entry,22541,,east west bank checking 2092`22541_x0003_internal xfer,1487.85,GL
+2022-08-04,cash receipt entry,22541,,east west bank checking 2092`22541_x0003_internal xfer,319.8,GL
+2022-08-04,cash receipt entry,22541,,east west bank checking 2092`22541_x0003_internal xfer,348.66,GL
+2022-08-04,cash receipt entry,22541,,east west bank checking 2092`22541_x0003_internal xfer,2800.0,GL
+2022-08-04,cash receipt entry,22541,,east west bank checking 2092`22541_x0003_internal xfer,869.44,GL
+2022-08-04,cash receipt entry,22541,,east west bank checking 2092`22541_x0003_internal xfer,3646.5,GL
+2022-08-04,cash receipt entry,22541,,east west bank checking 2092`22541_x0003_internal xfer,844.56,GL
+2022-08-05,payroll,15913,artemio benitez gonzalez,"`1469_x0003_buffalo ppe: 7.30.22, artemio benitez gonzalez",-989.28,GL
+2022-08-05,payroll,15914,eloina dorantes,"`1469_x0003_buffalo ppe: 7.30.22, eloina dorantes",-894.22,GL
+2022-08-05,payroll,15915,miguel gomez,"`1469_x0003_buffalo ppe: 7.30.22, miguel gomez",-1136.63,GL
+2022-08-05,payroll,15916,usiel gonzalez,"`1469_x0003_buffalo ppe: 7.30.22, usiel gonzalez",-593.84,GL
+2022-08-05,payroll,15917,marbella hernandez,"`1469_x0003_buffalo ppe: 7.30.22, marbella hernandez",-541.52,GL
+2022-08-05,payroll,15918,zenida hernandez-lopez,"`1469_x0003_buffalo ppe: 7.30.22, zenida hernandez-lopez",-153.84,GL
+2022-08-05,payroll,15919,israel jacinto,"`1469_x0003_buffalo ppe: 7.30.22, israel jacinto",-776.76,GL
+2022-08-05,payroll,15920,henry lopez,"`1469_x0003_buffalo ppe: 7.30.22, henry lopez",-854.75,GL
+2022-08-05,payroll,15921,raul lopez,"`1469_x0003_buffalo ppe: 7.30.22, raul lopez",-648.38,GL
+2022-08-05,payroll,15922,roberto lopez,"`1469_x0003_buffalo ppe: 7.30.22, roberto lopez",-643.13,GL
+2022-08-05,payroll,15923,sabino lopez,"`1469_x0003_buffalo ppe: 7.30.22, sabino lopez",-902.15,GL
+2022-08-05,payroll,15924,rubelio martinez,"`1469_x0003_buffalo ppe: 7.30.22, rubelio martinez",-488.31,GL
+2022-08-05,payroll,15925,wilmer mazariegos,"`1469_x0003_buffalo ppe: 7.30.22, wilmer mazariegos",-621.06,GL
+2022-08-05,payroll,15926,edrik molina,"`1469_x0003_buffalo ppe: 7.30.22, edrik molina",-602.82,GL
+2022-08-05,payroll,15927,zulma morales,"`1469_x0003_buffalo ppe: 7.30.22, zulma morales",-579.8,GL
+2022-08-05,payroll,15928,maribel olivares,"`1469_x0003_buffalo ppe: 7.30.22, maribel olivares",-656.55,GL
+2022-08-05,payroll,15929,david ortiz sanchez,"`1469_x0003_buffalo ppe: 7.30.22, david ortiz sanchez",-966.08,GL
+2022-08-05,payroll,15930,enrique ortiz,"`1469_x0003_buffalo ppe: 7.30.22, enrique ortiz",-650.72,GL
+2022-08-05,payroll,15931,belen perdomo polanco,"`1469_x0003_buffalo ppe: 7.30.22, belen perdomo polanco",-726.25,GL
+2022-08-05,payroll,15932,arely quintas,"`1469_x0003_buffalo ppe: 7.30.22, arely quintas",-580.43,GL
+2022-08-05,payroll,15933,cesar quitral-vidal,"`1469_x0003_buffalo ppe: 7.30.22, cesar quitral-vidal",-1437.82,GL
+2022-08-05,payroll,15934,rodolfo reyes,"`1469_x0003_buffalo ppe: 7.30.22, rodolfo reyes",-607.65,GL
+2022-08-05,payroll,15935,edith rodriguez,"`1469_x0003_buffalo ppe: 7.30.22, edith rodriguez",-751.48,GL
+2022-08-05,payroll,15936,mayra rodriguez,"`1469_x0003_buffalo ppe: 7.30.22, mayra rodriguez",-1285.84,GL
+2022-08-05,payroll,15938,pedro ruiz perez,"`1469_x0003_buffalo ppe: 7.30.22, pedro ruiz perez",-750.08,GL
+2022-08-05,payroll,15939,rosita itzel salinas garcia,"`1469_x0003_buffalo ppe: 7.30.22, rosita itzel salinas garcia",-399.0,GL
+2022-08-05,payroll,15940,hilda sanchez,"`1469_x0003_buffalo ppe: 7.30.22, hilda sanchez",-632.86,GL
+2022-08-05,payroll,15944,arnoldo velasquez,"`1469_x0003_buffalo ppe: 7.30.22, arnoldo velasquez",-631.79,GL
+2022-08-05,payroll,15937,emelia rojas montes,"`1469_x0003_buffalo ppe: 7.30.22, emelia rojas montes",-642.93,GL
+2022-08-05,payroll,15945,matthew walker,"`1469_x0003_buffalo ppe: 7.30.22, matthew walker",-1293.85,GL
+2022-08-05,payroll,15946,domitilo zamora,"`1469_x0003_buffalo ppe: 7.30.22, domitilo zamora",-728.17,GL
+2022-08-05,ap payments,15947,,"ej labor solutions llc`15947_x0003_($22,366.65 usd), aug 05, 2022",-22366.65,GL
+2022-08-05,payroll,15941,maribel vasquez,"`1469_x0003_buffalo ppe: 7.30.22, maribel vasquez",-636.58,GL
+2022-08-05,payroll,15942,crisoforo vasquez-vasquez,"`1469_x0003_buffalo ppe: 7.30.22, crisoforo vasquez-vasquez",-1087.89,GL
+2022-08-05,payroll,15943,floriana velasquez sanchez,"`1469_x0003_buffalo ppe: 7.30.22, floriana velasquez sanchez",-707.87,GL
+2022-08-05,ap payments,2205055,,"americold logistics, llc`2205055_x0003_($3,572.64 usd), aug 05, 2022",-3572.64,GL
+2022-08-08,bank charge/income,22542,,east west bank checking 2092`22542_x0003_fed p/r tax,-722.97,GL
+2022-08-08,bank charge/income,22543,,east west bank checking 2092`22543_x0003_fed p/r tax,-4473.54,GL
+2022-08-08,bank charge/income,22544,,east west bank checking 2092`22544_x0003_state p/r tax,-40.92,GL
+2022-08-08,bank charge/income,22545,,east west bank checking 2092`22545_x0003_state p/r tax,-161.17,GL
+2022-08-08,bank charge/income,22546,,east west bank checking 2092`22546_x0003_state p/r tax,-737.17,GL
+2022-08-08,bank charge/income,22547,,east west bank checking 2092`22547_x0003_state p/r tax,-494.56,GL
+2022-08-08,bank charge/income,22548,,east west bank checking 2092`22548_x0003_state p/r tax,-38.47,GL
+2022-08-08,cash receipt entry,22552,,east west bank checking 2092`22552_x0003_americold deposit,1298.5,GL
+2022-08-08,ap payments,15993,,"gold cup fresh`15993_x0003_($1,298.50 usd), aug 08, 2022",-1298.5,GL
+2022-08-10,ap payments,2208101,,"t-mobile`2208101_x0003_($64.28 usd), aug 10, 2022",-64.28,GL
+2022-08-11,bank acct transfer,22591,,east west bank checking 2092/american express ap credit card account`22591_x0003_transfer: 1230 to: 1210,-5040.86,GL
+2022-08-12,payroll,15952,artemio benitez gonzalez,"`1471_x0003_buffalo ppe: 8/6/22, artemio benitez gonzalez",-1080.17,GL
+2022-08-12,payroll,15953,eloina dorantes,"`1471_x0003_buffalo ppe: 8/6/22, eloina dorantes",-749.07,GL
+2022-08-12,payroll,15954,miguel gomez,"`1471_x0003_buffalo ppe: 8/6/22, miguel gomez",-1238.57,GL
+2022-08-12,payroll,15955,usiel gonzalez,"`1471_x0003_buffalo ppe: 8/6/22, usiel gonzalez",-727.07,GL
+2022-08-12,payroll,15956,marbella hernandez,"`1471_x0003_buffalo ppe: 8/6/22, marbella hernandez",-814.5,GL
+2022-08-12,payroll,15957,zenida hernandez-lopez,"`1471_x0003_buffalo ppe: 8/6/22, zenida hernandez-lopez",-572.35,GL
+2022-08-12,payroll,15958,israel jacinto,"`1471_x0003_buffalo ppe: 8/6/22, israel jacinto",-952.21,GL
+2022-08-12,payroll,15959,henry lopez,"`1471_x0003_buffalo ppe: 8/6/22, henry lopez",-895.1,GL
+2022-08-12,payroll,15960,raul lopez,"`1471_x0003_buffalo ppe: 8/6/22, raul lopez",-771.46,GL
+2022-08-12,payroll,15961,roberto lopez,"`1471_x0003_buffalo ppe: 8/6/22, roberto lopez",-757.62,GL
+2022-08-12,payroll,15962,sabino lopez,"`1471_x0003_buffalo ppe: 8/6/22, sabino lopez",-940.4,GL
+2022-08-12,payroll,15963,rubelio martinez,"`1471_x0003_buffalo ppe: 8/6/22, rubelio martinez",-744.55,GL
+2022-08-12,payroll,15964,wilmer mazariegos,"`1471_x0003_buffalo ppe: 8/6/22, wilmer mazariegos",-957.84,GL
+2022-08-12,payroll,15966,edrik molina,"`1471_x0003_buffalo ppe: 8/6/22, edrik molina",-505.1,GL
+2022-08-12,payroll,15965,keshia miller,"`1471_x0003_buffalo ppe: 8/6/22, keshia miller",-1237.74,GL
+2022-08-12,payroll,15967,zulma morales,"`1471_x0003_buffalo ppe: 8/6/22, zulma morales",-723.92,GL
+2022-08-12,payroll,15968,maribel olivares,"`1471_x0003_buffalo ppe: 8/6/22, maribel olivares",-766.38,GL
+2022-08-12,payroll,15969,david ortiz sanchez,"`1471_x0003_buffalo ppe: 8/6/22, david ortiz sanchez",-1067.48,GL
+2022-08-12,payroll,15970,enrique ortiz,"`1471_x0003_buffalo ppe: 8/6/22, enrique ortiz",-771.76,GL
+2022-08-12,payroll,15971,belen perdomo polanco,"`1471_x0003_buffalo ppe: 8/6/22, belen perdomo polanco",-839.21,GL
+2022-08-12,payroll,15973,rodolfo reyes,"`1471_x0003_buffalo ppe: 8/6/22, rodolfo reyes",-762.81,GL
+2022-08-12,payroll,15972,arely quintas,"`1471_x0003_buffalo ppe: 8/6/22, arely quintas",-713.95,GL
+2022-08-12,payroll,15974,edith rodriguez,"`1471_x0003_buffalo ppe: 8/6/22, edith rodriguez",-819.29,GL
+2022-08-12,payroll,15975,mayra rodriguez,"`1471_x0003_buffalo ppe: 8/6/22, mayra rodriguez",-1418.52,GL
+2022-08-12,payroll,15976,emelia rojas montes,"`1471_x0003_buffalo ppe: 8/6/22, emelia rojas montes",-753.92,GL
+2022-08-12,payroll,15977,pedro ruiz perez,"`1471_x0003_buffalo ppe: 8/6/22, pedro ruiz perez",-895.29,GL
+2022-08-12,payroll,15978,rosita itzel salinas garcia,"`1471_x0003_buffalo ppe: 8/6/22, rosita itzel salinas garcia",-540.17,GL
+2022-08-12,payroll,15979,hilda sanchez,"`1471_x0003_buffalo ppe: 8/6/22, hilda sanchez",-762.81,GL
+2022-08-12,payroll,15980,maribel vasquez,"`1471_x0003_buffalo ppe: 8/6/22, maribel vasquez",-758.85,GL
+2022-08-12,payroll,15982,floriana velasquez sanchez,"`1471_x0003_buffalo ppe: 8/6/22, floriana velasquez sanchez",-847.9,GL
+2022-08-12,payroll,15981,crisoforo vasquez-vasquez,"`1471_x0003_buffalo ppe: 8/6/22, crisoforo vasquez-vasquez",-803.61,GL
+2022-08-12,payroll,15983,arnoldo velasquez,"`1471_x0003_buffalo ppe: 8/6/22, arnoldo velasquez",-741.03,GL
+2022-08-12,payroll,15984,matthew walker,"`1471_x0003_buffalo ppe: 8/6/22, matthew walker",-1293.82,GL
+2022-08-12,payroll,15985,domitilo zamora,"`1471_x0003_buffalo ppe: 8/6/22, domitilo zamora",-857.29,GL
+2022-08-12,payroll,15986,cesar quitral-vidal,"`1472_x0003_buffalo ppe: 8/6/22, cesar quitral-vidal",-1437.86,GL
+2022-08-12,payroll,1471,keshia miller,`1471_x0003_buffalo ppe: 8/6/22,1237.74,GL
+2022-08-12,ap payments,15987,,"ej labor solutions llc`15987_x0003_($23,205.23 usd), aug 12, 2022",-23205.23,GL
+2022-08-15,bank charge/income,22596,,east west bank checking 2092`22596_x0003_fed p/r tax,-1009.44,GL
+2022-08-15,bank charge/income,22597,,east west bank checking 2092`22597_x0003_fed p/r tax,-5151.8,GL
+2022-08-15,bank charge/income,22598,,east west bank checking 2092`22598_x0003_state p/r tax,-47.12,GL
+2022-08-15,bank charge/income,22599,,east west bank checking 2092`22599_x0003_state p.r tax,-187.11,GL
+2022-08-15,bank charge/income,22600,,east west bank checking 2092`22600_x0003_state p/r tax,-858.17,GL
+2022-08-15,bank charge/income,22601,,east west bank checking 2092`22601_x0003_state p/r tax,-858.17,GL
+2022-08-15,bank charge/income,22601,,east west bank checking 2092`22601_x0003_state p/r tax,-591.88,GL
+2022-08-15,bank charge/income,22601,,east west bank checking 2092`22601_x0003_state p/r tax,858.17,GL
+2022-08-15,bank charge/income,22602,,east west bank checking 2092`22602_x0003_state p/r tax,-44.78,GL
+2022-08-16,ap payments,,,"regatta tropicals, ltd.`_x0003_($45,871.56 usd), aug 16, 2022",-45871.56,GL
+2022-08-16,cash receipt entry,22605,,east west bank checking 2092`22605_x0003_deposit 8/18/22,6418.08,GL
+2022-08-16,cash receipt entry,22606,,east west bank checking 2092`22606_x0003_regatta,1006.0,GL
+2022-08-17,cash receipt entry,22676,,east west bank checking 2092`22676_x0003_summit produce,4908.24,GL
+2022-08-18,ap payments,2208181,,"americold logistics, llc`2208181_x0003_($11,621.39 usd), aug 18, 2022",-11621.39,GL
+2022-08-18,ap payments,15989,,"aalto ethylene gas testing`15989_x0003_($128.00 usd), aug 18, 2022",-128.0,GL
+2022-08-18,ap payments,15990,,"eastern lift truck co., inc.`15990_x0003_($1,748.47 usd), aug 18, 2022",-1748.47,GL
+2022-08-18,ap payments,15991,,"trailers to go`15991_x0003_($1,100.00 usd), aug 18, 2022",-1100.0,GL
+2022-08-19,payroll,15988,artemio benitez gonzalez,"`1473_x0003_ppe: buffalo 8/13/22 , artemio benitez gonzalez",-1025.64,GL
+2022-08-19,ap payments,15988,,"ej labor solutions llc`15988_x0003_($25,576.49 usd), aug 19, 2022",-25576.49,GL
+2022-08-19,payroll,15989,eloina dorantes,"`1473_x0003_ppe: buffalo 8/13/22 , eloina dorantes",-947.86,GL
+2022-08-19,payroll,15990,miguel gomez,"`1473_x0003_ppe: buffalo 8/13/22 , miguel gomez",-1220.73,GL
+2022-08-19,payroll,15991,usiel gonzalez,"`1473_x0003_ppe: buffalo 8/13/22 , usiel gonzalez",-718.33,GL
+2022-08-19,payroll,15992,marbella hernandez,"`1473_x0003_ppe: buffalo 8/13/22 , marbella hernandez",-928.23,GL
+2022-08-19,payroll,15994,israel jacinto,"`1473_x0003_ppe: buffalo 8/13/22 , israel jacinto",-891.72,GL
+2022-08-19,payroll,15995,henry lopez,"`1473_x0003_ppe: buffalo 8/13/22 , henry lopez",-890.04,GL
+2022-08-19,payroll,15996,raul lopez,"`1473_x0003_ppe: buffalo 8/13/22 , raul lopez",-793.86,GL
+2022-08-19,payroll,15997,roberto lopez,"`1473_x0003_ppe: buffalo 8/13/22 , roberto lopez",-753.28,GL
+2022-08-19,payroll,15998,sabino lopez,"`1473_x0003_ppe: buffalo 8/13/22 , sabino lopez",-930.82,GL
+2022-08-19,payroll,15999,rubelio martinez,"`1473_x0003_ppe: buffalo 8/13/22 , rubelio martinez",-718.34,GL
+2022-08-19,payroll,15993,zenida hernandez-lopez,"`1473_x0003_ppe: buffalo 8/13/22 , zenida hernandez-lopez",-753.86,GL
+2022-08-19,payroll,16000,wilmer mazariegos,"`1473_x0003_ppe: buffalo 8/13/22 , wilmer mazariegos",-661.4,GL
+2022-08-19,payroll,16000,artemio benitez gonzalez,"`1474_x0003_buffalo ppe: 8/13/22, artemio benitez gonzalez",-1025.64,GL
+2022-08-19,payroll,16001,edrik molina,"`1473_x0003_ppe: buffalo 8/13/22 , edrik molina",-731.45,GL
+2022-08-19,payroll,16001,eloina dorantes,"`1474_x0003_buffalo ppe: 8/13/22, eloina dorantes",-947.86,GL
+2022-08-19,payroll,16002,zulma morales,"`1473_x0003_ppe: buffalo 8/13/22 , zulma morales",-697.73,GL
+2022-08-19,payroll,16002,miguel gomez,"`1474_x0003_buffalo ppe: 8/13/22, miguel gomez",-1220.73,GL
+2022-08-19,payroll,16003,maribel olivares,"`1473_x0003_ppe: buffalo 8/13/22 , maribel olivares",-753.27,GL
+2022-08-19,payroll,16003,usiel gonzalez,"`1474_x0003_buffalo ppe: 8/13/22, usiel gonzalez",-718.33,GL
+2022-08-19,payroll,16004,david ortiz sanchez,"`1473_x0003_ppe: buffalo 8/13/22 , david ortiz sanchez",-1010.45,GL
+2022-08-19,payroll,16004,marbella hernandez,"`1474_x0003_buffalo ppe: 8/13/22, marbella hernandez",-928.23,GL
+2022-08-19,payroll,16005,enrique ortiz,"`1473_x0003_ppe: buffalo 8/13/22 , enrique ortiz",-814.14,GL
+2022-08-19,payroll,16005,zenida hernandez-lopez,"`1474_x0003_buffalo ppe: 8/13/22, zenida hernandez-lopez",-753.86,GL
+2022-08-19,payroll,16006,belen perdomo polanco,"`1473_x0003_ppe: buffalo 8/13/22 , belen perdomo polanco",-806.91,GL
+2022-08-19,payroll,16006,israel jacinto,"`1474_x0003_buffalo ppe: 8/13/22, israel jacinto",-891.72,GL
+2022-08-19,payroll,16007,henry lopez,"`1474_x0003_buffalo ppe: 8/13/22, henry lopez",-890.04,GL
+2022-08-19,payroll,16007,arely quintas,"`1473_x0003_ppe: buffalo 8/13/22 , arely quintas",-709.61,GL
+2022-08-19,payroll,16008,cesar quitral-vidal,"`1473_x0003_ppe: buffalo 8/13/22 , cesar quitral-vidal",-1437.85,GL
+2022-08-19,payroll,16008,raul lopez,"`1474_x0003_buffalo ppe: 8/13/22, raul lopez",-793.86,GL
+2022-08-19,payroll,16009,rodolfo reyes,"`1473_x0003_ppe: buffalo 8/13/22 , rodolfo reyes",-731.44,GL
+2022-08-19,payroll,16009,roberto lopez,"`1474_x0003_buffalo ppe: 8/13/22, roberto lopez",-753.28,GL
+2022-08-19,payroll,16010,edith rodriguez,"`1473_x0003_ppe: buffalo 8/13/22 , edith rodriguez",-832.84,GL
+2022-08-19,payroll,16010,sabino lopez,"`1474_x0003_buffalo ppe: 8/13/22, sabino lopez",-930.82,GL
+2022-08-19,payroll,16011,mayra rodriguez,"`1473_x0003_ppe: buffalo 8/13/22 , mayra rodriguez",-1430.98,GL
+2022-08-19,payroll,16011,rubelio martinez,"`1474_x0003_buffalo ppe: 8/13/22, rubelio martinez",-718.34,GL
+2022-08-19,payroll,16012,emelia rojas montes,"`1473_x0003_ppe: buffalo 8/13/22 , emelia rojas montes",-738.74,GL
+2022-08-19,payroll,16012,wilmer mazariegos,"`1474_x0003_buffalo ppe: 8/13/22, wilmer mazariegos",-661.4,GL
+2022-08-19,payroll,16013,pedro ruiz perez,"`1473_x0003_ppe: buffalo 8/13/22 , pedro ruiz perez",-889.94,GL
+2022-08-19,payroll,16013,edrik molina,"`1474_x0003_buffalo ppe: 8/13/22, edrik molina",-731.45,GL
+2022-08-19,payroll,16014,rosita itzel salinas garcia,"`1473_x0003_ppe: buffalo 8/13/22 , rosita itzel salinas garcia",-646.09,GL
+2022-08-19,payroll,16014,zulma morales,"`1474_x0003_buffalo ppe: 8/13/22, zulma morales",-697.73,GL
+2022-08-19,payroll,16015,maribel olivares,"`1474_x0003_buffalo ppe: 8/13/22, maribel olivares",-753.27,GL
+2022-08-19,payroll,16015,hilda sanchez,"`1473_x0003_ppe: buffalo 8/13/22 , hilda sanchez",-749.36,GL
+2022-08-19,payroll,16016,maribel vasquez,"`1473_x0003_ppe: buffalo 8/13/22 , maribel vasquez",-776.36,GL
+2022-08-19,payroll,16016,david ortiz sanchez,"`1474_x0003_buffalo ppe: 8/13/22, david ortiz sanchez",-1010.45,GL
+2022-08-19,payroll,16017,crisoforo vasquez-vasquez,"`1473_x0003_ppe: buffalo 8/13/22 , crisoforo vasquez-vasquez",-1173.59,GL
+2022-08-19,payroll,16017,enrique ortiz,"`1474_x0003_buffalo ppe: 8/13/22, enrique ortiz",-814.14,GL
+2022-08-19,payroll,16019,arely quintas,"`1474_x0003_buffalo ppe: 8/13/22, arely quintas",-709.61,GL
+2022-08-19,payroll,16019,arnoldo velasquez,"`1473_x0003_ppe: buffalo 8/13/22 , arnoldo velasquez",-736.6,GL
+2022-08-19,payroll,16018,floriana velasquez sanchez,"`1473_x0003_ppe: buffalo 8/13/22 , floriana velasquez sanchez",-934.98,GL
+2022-08-19,payroll,16018,belen perdomo polanco,"`1474_x0003_buffalo ppe: 8/13/22, belen perdomo polanco",-806.91,GL
+2022-08-19,payroll,16020,matthew walker,"`1473_x0003_ppe: buffalo 8/13/22 , matthew walker",-1293.84,GL
+2022-08-19,payroll,16020,cesar quitral-vidal,"`1474_x0003_buffalo ppe: 8/13/22, cesar quitral-vidal",-1437.85,GL
+2022-08-19,payroll,16021,domitilo zamora,"`1473_x0003_ppe: buffalo 8/13/22 , domitilo zamora",-857.24,GL
+2022-08-19,payroll,16021,rodolfo reyes,"`1474_x0003_buffalo ppe: 8/13/22, rodolfo reyes",-731.44,GL
+2022-08-19,payroll,16024,emelia rojas montes,"`1474_x0003_buffalo ppe: 8/13/22, emelia rojas montes",-738.74,GL
+2022-08-19,payroll,16022,edith rodriguez,"`1474_x0003_buffalo ppe: 8/13/22, edith rodriguez",-832.84,GL
+2022-08-19,payroll,16023,mayra rodriguez,"`1474_x0003_buffalo ppe: 8/13/22, mayra rodriguez",-1430.98,GL
+2022-08-19,payroll,16025,pedro ruiz perez,"`1474_x0003_buffalo ppe: 8/13/22, pedro ruiz perez",-889.94,GL
+2022-08-19,payroll,16026,rosita itzel salinas garcia,"`1474_x0003_buffalo ppe: 8/13/22, rosita itzel salinas garcia",-646.09,GL
+2022-08-19,payroll,16029,crisoforo vasquez-vasquez,"`1474_x0003_buffalo ppe: 8/13/22, crisoforo vasquez-vasquez",-1173.59,GL
+2022-08-19,payroll,16030,floriana velasquez sanchez,"`1474_x0003_buffalo ppe: 8/13/22, floriana velasquez sanchez",-934.98,GL
+2022-08-19,payroll,16027,hilda sanchez,"`1474_x0003_buffalo ppe: 8/13/22, hilda sanchez",-749.36,GL
+2022-08-19,payroll,16028,maribel vasquez,"`1474_x0003_buffalo ppe: 8/13/22, maribel vasquez",-776.36,GL
+2022-08-19,payroll,16031,arnoldo velasquez,"`1474_x0003_buffalo ppe: 8/13/22, arnoldo velasquez",-736.6,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,646.09,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,889.94,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,738.74,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,1430.98,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,832.84,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,731.44,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,1437.85,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,709.61,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,806.91,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,814.14,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,1010.45,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,753.27,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,857.24,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,1293.84,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,736.6,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,934.98,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,1173.59,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,776.36,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,749.36,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,697.73,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,731.45,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,661.4,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,718.34,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,930.82,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,753.28,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,793.86,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,890.04,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,891.72,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,753.86,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,928.23,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,718.33,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,1220.73,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,947.86,GL
+2022-08-19,payroll,1473,,`1473_x0003_ppe: buffalo 8/13/22,1025.64,GL
+2022-08-19,payroll,16032,matthew walker,"`1474_x0003_buffalo ppe: 8/13/22, matthew walker",-1293.84,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,1556.0,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,6558.6,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,166.4,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,964.89,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,2194.5,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,1973.7,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,225.0,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,5763.0,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,1935.36,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,389.57,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,298.08,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,221.0,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,6099.6,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,317.2,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,2284.9,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,878.14,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,2130.0,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,2400.0,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,2150.16,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,1264.0,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,8299.2,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,200.08,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,199.2,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,2805.32,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,3112.2,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,720.86,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,958.0,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,9828.0,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,9204.0,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,3876.0,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,869.7,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,2310.4,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,1835.7,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,480.0,GL
+2022-08-19,cash receipt entry,22692,,east west bank checking 2092`22692_x0003_iinternal xfer,1447.2,GL
+2022-08-19,payroll,16033,domitilo zamora,"`1474_x0003_buffalo ppe: 8/13/22, domitilo zamora",-857.24,GL
+2022-08-22,bank charge/income,22685,,east west bank checking 2092`22685_x0003_fed p/r tax,-1078.86,GL
+2022-08-22,bank charge/income,22686,,east west bank checking 2092`22686_x0003_fed p/r tax,-5284.22,GL
+2022-08-22,bank charge/income,22687,,east west bank checking 2092`22687_x0003_state p/r tax,-48.39,GL
+2022-08-22,bank charge/income,22688,,east west bank checking 2092`22688_x0003_state p/r tax,-190.73,GL
+2022-08-22,bank charge/income,22689,,east west bank checking 2092`22689_x0003_state p/r tax,-872.32,GL
+2022-08-22,bank charge/income,22690,,east west bank checking 2092`22690_x0003_state p/r tax,-611.07,GL
+2022-08-22,bank charge/income,22691,,east west bank checking 2092`22691_x0003_state p/r tax,-45.54,GL
+2022-08-22,cash receipt entry,22694,,east west bank checking 2092`22694_x0003_deposit 8/22/22,9750.36,GL
+2022-08-22,cash receipt entry,22694,,east west bank checking 2092`22694_x0003_deposit 8/22/22,162.0,GL
+2022-08-22,cash receipt entry,22694,,east west bank checking 2092`22694_x0003_deposit 8/22/22,2414.49,GL
+2022-08-22,cash receipt entry,22694,,east west bank checking 2092`22694_x0003_deposit 8/22/22,1051.74,GL
+2022-08-22,cash receipt entry,22694,,east west bank checking 2092`22694_x0003_deposit 8/22/22,446.01,GL
+2022-08-22,cash receipt entry,22694,,east west bank checking 2092`22694_x0003_deposit 8/22/22,2326.04,GL
+2022-08-22,cash receipt entry,22694,,east west bank checking 2092`22694_x0003_deposit 8/22/22,525.17,GL
+2022-08-22,cash receipt entry,22694,,east west bank checking 2092`22694_x0003_deposit 8/22/22,271.54,GL
+2022-08-22,cash receipt entry,22694,,east west bank checking 2092`22694_x0003_deposit 8/22/22,1630.54,GL
+2022-08-22,cash receipt entry,22694,,east west bank checking 2092`22694_x0003_deposit 8/22/22,271.71,GL
+2022-08-22,cash receipt entry,22694,,east west bank checking 2092`22694_x0003_deposit 8/22/22,1737.11,GL
+2022-08-22,cash receipt entry,22694,,east west bank checking 2092`22694_x0003_deposit 8/22/22,3618.48,GL
+2022-08-22,cash receipt entry,22694,,east west bank checking 2092`22694_x0003_deposit 8/22/22,9602.36,GL
+2022-08-22,cash receipt entry,22694,,east west bank checking 2092`22694_x0003_deposit 8/22/22,4032.8,GL
+2022-08-22,cash receipt entry,22694,,east west bank checking 2092`22694_x0003_deposit 8/22/22,4650.64,GL
+2022-08-22,cash receipt entry,22694,,east west bank checking 2092`22694_x0003_deposit 8/22/22,4616.48,GL
+2022-08-26,ap payments,15992,,"ej labor solutions llc`15992_x0003_($19,490.34 usd), aug 26, 2022",-19490.34,GL
+2022-08-26,payroll,16034,artemio benitez gonzalez,"`1475_x0003_buffalo ppe: 8/20/22, artemio benitez gonzalez",-825.68,GL
+2022-08-26,payroll,16035,eloina dorantes,"`1475_x0003_buffalo ppe: 8/20/22, eloina dorantes",-861.96,GL
+2022-08-26,payroll,16036,miguel gomez,"`1475_x0003_buffalo ppe: 8/20/22, miguel gomez",-1100.25,GL
+2022-08-26,payroll,16037,usiel gonzalez,"`1475_x0003_buffalo ppe: 8/20/22, usiel gonzalez",-620.73,GL
+2022-08-26,payroll,16038,marbella hernandez,"`1475_x0003_buffalo ppe: 8/20/22, marbella hernandez",-884.35,GL
+2022-08-26,payroll,16039,zenida hernandez-lopez,"`1475_x0003_buffalo ppe: 8/20/22, zenida hernandez-lopez",-587.49,GL
+2022-08-26,payroll,16040,israel jacinto,"`1475_x0003_buffalo ppe: 8/20/22, israel jacinto",-679.94,GL
+2022-08-26,payroll,16041,henry lopez,"`1475_x0003_buffalo ppe: 8/20/22, henry lopez",-809.34,GL
+2022-08-26,payroll,16042,raul lopez,"`1475_x0003_buffalo ppe: 8/20/22, raul lopez",-673.6,GL
+2022-08-26,payroll,16043,roberto lopez,"`1475_x0003_buffalo ppe: 8/20/22, roberto lopez",-656.6,GL
+2022-08-26,payroll,16044,sabino lopez,"`1475_x0003_buffalo ppe: 8/20/22, sabino lopez",-859.15,GL
+2022-08-26,payroll,16045,rubelio martinez,"`1475_x0003_buffalo ppe: 8/20/22, rubelio martinez",-607.28,GL
+2022-08-26,payroll,16046,wilmer mazariegos,"`1475_x0003_buffalo ppe: 8/20/22, wilmer mazariegos",-794.54,GL
+2022-08-26,payroll,16047,edrik molina,"`1475_x0003_buffalo ppe: 8/20/22, edrik molina",-602.8,GL
+2022-08-26,payroll,16048,zulma morales,"`1475_x0003_buffalo ppe: 8/20/22, zulma morales",-605.99,GL
+2022-08-26,payroll,16049,maribel olivares,"`1475_x0003_buffalo ppe: 8/20/22, maribel olivares",-616.27,GL
+2022-08-26,payroll,16050,david ortiz sanchez,"`1475_x0003_buffalo ppe: 8/20/22, david ortiz sanchez",-863.98,GL
+2022-08-26,payroll,16051,enrique ortiz,"`1475_x0003_buffalo ppe: 8/20/22, enrique ortiz",-670.9,GL
+2022-08-26,payroll,16052,belen perdomo polanco,"`1475_x0003_buffalo ppe: 8/20/22, belen perdomo polanco",-710.13,GL
+2022-08-26,payroll,16053,arely quintas,"`1475_x0003_buffalo ppe: 8/20/22, arely quintas",-511.84,GL
+2022-08-26,payroll,16054,cesar quitral-vidal,"`1475_x0003_buffalo ppe: 8/20/22, cesar quitral-vidal",-1437.85,GL
+2022-08-26,payroll,16055,rodolfo reyes,"`1475_x0003_buffalo ppe: 8/20/22, rodolfo reyes",-632.88,GL
+2022-08-26,payroll,16056,edith rodriguez,"`1475_x0003_buffalo ppe: 8/20/22, edith rodriguez",-585.44,GL
+2022-08-26,payroll,16057,mayra rodriguez,"`1475_x0003_buffalo ppe: 8/20/22, mayra rodriguez",-1330.97,GL
+2022-08-26,payroll,16058,emelia rojas montes,"`1475_x0003_buffalo ppe: 8/20/22, emelia rojas montes",-648.01,GL
+2022-08-26,payroll,16059,pedro ruiz perez,"`1475_x0003_buffalo ppe: 8/20/22, pedro ruiz perez",-766.2,GL
+2022-08-26,payroll,16060,rosita itzel salinas garcia,"`1475_x0003_buffalo ppe: 8/20/22, rosita itzel salinas garcia",-641.02,GL
+2022-08-26,payroll,16061,hilda sanchez,"`1475_x0003_buffalo ppe: 8/20/22, hilda sanchez",-597.59,GL
+2022-08-26,payroll,16062,maribel vasquez,"`1475_x0003_buffalo ppe: 8/20/22, maribel vasquez",-706.47,GL
+2022-08-26,payroll,16063,crisoforo vasquez-vasquez,"`1475_x0003_buffalo ppe: 8/20/22, crisoforo vasquez-vasquez",-1131.69,GL
+2022-08-26,payroll,16064,floriana velasquez sanchez,"`1475_x0003_buffalo ppe: 8/20/22, floriana velasquez sanchez",-791.46,GL
+2022-08-26,payroll,16065,arnoldo velasquez,"`1475_x0003_buffalo ppe: 8/20/22, arnoldo velasquez",-662.4,GL
+2022-08-26,payroll,16066,matthew walker,"`1475_x0003_buffalo ppe: 8/20/22, matthew walker",-1293.82,GL
+2022-08-26,payroll,16067,domitilo zamora,"`1475_x0003_buffalo ppe: 8/20/22, domitilo zamora",-744.33,GL
+2022-08-26,ap payments,15994,,"national freight, inc.`15994_x0003_($800.00 usd), aug 26, 2022",-800.0,GL
+2022-08-26,ap payments,2208262,,"americold logistics, llc`2208262_x0003_($20,844.51 usd), aug 26, 2022",-20844.51,GL
+2022-08-29,bank charge/income,22737,,east west bank checking 2092`22737_x0003_fed p/r tax,-694.08,GL
+2022-08-29,bank charge/income,22738,,east west bank checking 2092`22738_x0003_fed p/r tax,-4623.68,GL
+2022-08-29,bank charge/income,22739,,east west bank checking 2092`22739_x0003_statr pr tax,-42.3,GL
+2022-08-29,bank charge/income,22740,,east west bank checking 2092`22740_x0003_state pr tax,-164.94,GL
+2022-08-29,bank charge/income,22741,,east west bank checking 2092`22741_x0003_state pr tax,-751.71,GL
+2022-08-29,bank charge/income,22742,,east west bank checking 2092`22742_x0003_state p/r tax,-512.18,GL
+2022-08-29,bank charge/income,22743,,east west bank checking 2092`22743_x0003_state p/r tax,-39.29,GL
+2022-08-29,bank charge/income,22743,,east west bank checking 2092`22743_x0003_state p/r tax,-39.28,GL
+2022-08-29,bank charge/income,22743,,east west bank checking 2092`22743_x0003_state p/r tax,39.29,GL
+2022-08-29,cash receipt entry,22752,,east west bank checking 2092`22752_x0003_deposit 8/29/22,1210.0,GL
+2022-08-29,ap payments,15995,,"gold cup fresh`15995_x0003_($1,210.00 usd), aug 29, 2022",-1210.0,GL
+2022-06-25,payroll,15710,,,-2076.69,Outstanding Check
+2022-06-25,payroll,15706,,,-1529.07,Outstanding Check
+2022-07-01,payroll,15748,,,-1150.18,Outstanding Check
+2022-07-01,payroll,15737,,,-718.33,Outstanding Check
+2022-07-08,payroll,15787,,,-947.4,Outstanding Check
+2022-07-08,ap payments,15793,"western pest services`15793_x0003_($191.92 usd), jul 08, 2022",,-191.92000000000002,Outstanding Check
+2022-07-08,payroll,15776,,,-638.66,Outstanding Check
+2022-07-08,payroll,15786,,,-1017.97,Outstanding Check
+2022-07-15,payroll,15827,,,-670.23,Outstanding Check
+2022-07-15,payroll,15826,,,-783.02,Outstanding Check
+2022-07-22,payroll,15862,,,-518.57,Outstanding Check
+2022-07-22,payroll,15869,,,-730.8000000000001,Outstanding Check
+2022-07-22,payroll,15865,,,-803.99,Outstanding Check
+2022-07-22,payroll,15864,,,-732.6,Outstanding Check
+2022-07-27,ap payments,15911,"truck co., inc.`15911_x0003_($785.76 usd), jul 27, 2022",,-785.76,Outstanding Check
+2022-07-27,ap payments,15912,"trailers to go`15912_x0003_($1,100.00 usd), jul 27, 2022",,-1100.0,Outstanding Check
+2022-07-27,ap payments,15910,"comcast`15910_x0003_($271.18 usd), jul 27, 2022",,-271.18,Outstanding Check
+2022-07-29,payroll,15874,,,-683.13,Outstanding Check
+2022-07-29,payroll,15875,,,-133.86,Outstanding Check
+2022-07-29,payroll,15876,,,-931.85,Outstanding Check
+2022-07-29,payroll,15877,,,-1160.89,Outstanding Check
+2022-07-29,payroll,15878,,,-575.94,Outstanding Check
+2022-07-29,payroll,15879,,,-896.89,Outstanding Check
+2022-07-29,payroll,15880,,,-305.98,Outstanding Check
+2022-07-29,payroll,15881,,,-813.0500000000001,Outstanding Check
+2022-07-29,payroll,15882,,,-753.88,Outstanding Check
+2022-07-29,payroll,15883,,,-518.95,Outstanding Check
+2022-07-29,payroll,15884,,,-611.77,Outstanding Check
+2022-07-29,payroll,15885,,,-799.25,Outstanding Check
+2022-07-29,payroll,15886,,,-580.41,Outstanding Check
+2022-07-29,payroll,15889,,,-566.6800000000001,Outstanding Check
+2022-07-29,payroll,15890,,,-616.27,Outstanding Check
+2022-07-29,payroll,15891,,,-1029.46,Outstanding Check
+2022-07-29,payroll,15892,,,-605.34,Outstanding Check
+2022-07-29,payroll,15893,,,-704.74,Outstanding Check
+2022-07-29,payroll,15895,,,-1437.8500000000001,Outstanding Check
+2022-07-29,payroll,15896,,,-587.49,Outstanding Check
+2022-07-29,payroll,15897,,,-742.35,Outstanding Check
+2022-07-29,payroll,15898,,,-1260.02,Outstanding Check
+2022-07-29,payroll,15900,,,-723.19,Outstanding Check
+2022-07-29,payroll,15902,,,-582.45,Outstanding Check
+2022-07-29,payroll,15903,,,-667.15,Outstanding Check
+2022-07-29,payroll,15906,,,-605.63,Outstanding Check
+2022-07-29,payroll,15907,,,-1293.81,Outstanding Check
+2022-07-29,payroll,15908,,,-695.92,Outstanding Check
+2022-07-29,payroll,15888,,,-584.91,Outstanding Check
+2022-07-29,ap payments,15909,"solutions llc`15909_x0003_($19,816.40 usd), jul 29, 2022",,-19816.4,Outstanding Check
+2022-07-29,payroll,15901,,,-459.51,Outstanding Check
+2022-07-29,payroll,15887,,,-800.5600000000001,Outstanding Check
+2022-07-29,payroll,15894,,,-593.82,Outstanding Check
+2022-07-29,payroll,15904,,,-1084.66,Outstanding Check
+2022-07-29,payroll,15905,,,-891.46,Outstanding Check
+2022-07-29,payroll,15899,,,-602.63,Outstanding Check
+2022-08-05,payroll,15941,,,-636.58,Outstanding Check
+2022-08-05,payroll,15942,,,-1087.89,Outstanding Check
+2022-08-05,payroll,15943,,,-707.87,Outstanding Check
+2022-08-05,payroll,15937,,,-642.9300000000001,Outstanding Check
+2022-08-12,payroll,15981,,,-803.61,Outstanding Check
+2022-08-12,payroll,15972,,,-713.95,Outstanding Check
+2022-08-19,payroll,16029,,,-1173.59,Outstanding Check
+2022-08-19,payroll,16030,,,-934.98,Outstanding Check
+2022-08-19,payroll,16024,,,-738.74,Outstanding Check
+2022-08-19,payroll,16019,,,-709.61,Outstanding Check
+2022-08-26,payroll,16038,,,-884.35,Outstanding Check
+2022-08-26,ap payments,15994,,,-800.0,Outstanding Check
+2022-08-26,payroll,16056,,,-585.44,Outstanding Check
+2022-08-26,payroll,16060,,,-641.02,Outstanding Check
+2022-08-26,payroll,16058,,,-648.01,Outstanding Check
+2022-08-26,payroll,16062,,,-706.47,Outstanding Check
+2022-08-26,payroll,16063,,,-1131.69,Outstanding Check
+2022-08-26,payroll,16064,,,-791.46,Outstanding Check
+2022-08-29,ap payments,15995,,,-1210.0,Outstanding Check
